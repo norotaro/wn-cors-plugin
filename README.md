@@ -39,8 +39,10 @@ For more information you can read the [instructions of laravel-cors](https://git
 
 In the WinterCMS backend settings section _(Settings > CORS > CORS Settings)_ you can enable Backend Configuration. There you can set the same parameters as in the `config/cors.php` file.
 
-> Note: If you enable this setting, the configuration set in the config/cors.php file will be ignored.
+> **Note:** If you enable this setting, the configuration set in the config/cors.php file will be ignored.
+
+> **Note:** If you choose this option to configure the plugin, you do not need to publish the configuration file described in the previous point.
 
 ## Package docs
 
-Here you can read the documentation of the package installed by this plugin: (https://github.com/fruitcake/laravel-cors#cors-middleware-for-laravel)[https://github.com/fruitcake/laravel-cors#cors-middleware-for-laravel]
+Here you can read the documentation of the package installed by this plugin: [https://github.com/fruitcake/laravel-cors#cors-middleware-for-laravel](https://github.com/fruitcake/laravel-cors#cors-middleware-for-laravel)
