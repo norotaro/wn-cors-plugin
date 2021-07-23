@@ -1,0 +1,6 @@
+plugin:
+    name: 'norotaro.cors::lang.plugin.name'
+    description: 'norotaro.cors::lang.plugin.description'
+    author: Norotaro
+    icon: wn-icon-cube
+    homepage: ''

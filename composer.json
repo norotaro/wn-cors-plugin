@@ -1,0 +1,31 @@
+{
+    "name": "norotaro/wn-cors-plugin",
+    "desciption": "WinterCMS plugin for send CORS headers.",
+    "type": "winter-plugin",
+    "keywords": [
+        "winter",
+        "wintercms",
+        "winter-plugin",
+        "plugin",
+        "cors",
+        "middleware"
+    ],
+    "homepage": "https://github.com/norotaro/wn-cors-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nelson Otazo",
+            "email": "nelson.otazo@gmail.com",
+            "homepage": "https://nelson.otazo.com.py",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "nelson.otazo@gmail.com",
+        "issues": "https://github.com/norotaro/wn-cors-plugin/issues",
+        "source": "https://github.com/norotaro/wn-cors-plugin"
+    },
+    "require": {
+        "fruitcake/laravel-cors": "^2.0"
+    }
+}

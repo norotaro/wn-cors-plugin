@@ -1,0 +1,93 @@
+fields:
+  section:
+    label: "norotaro.cors::lang.settings.section"
+    comment: "norotaro.cors::lang.settings.section_comment"
+    commentHtml: true
+    type: section
+  enabled:
+    label: "norotaro.cors::lang.settings.enabled"
+    commentAbove: "norotaro.cors::lang.settings.enabled_comment"
+    commentHtml: true
+    type: switch
+    on: "On"
+    off: "Off"
+  configuration:
+    type: nestedform
+    usePanelStyles: false
+    trigger:
+      action: show
+      field: enabled
+      condition: checked
+    form:
+      fields:
+        paths:
+          label: "norotaro.cors::lang.settings.paths"
+          commentAbove: "norotaro.cors::lang.settings.paths_comment"
+          commentHtml: true
+          type: repeater
+          minItems: 1
+          form:
+            fields:
+              path:
+                label: norotaro.cors::lang.settings.path
+        allowed_origins:
+          label: norotaro.cors::lang.settings.allowed_origins
+          commentAbove: norotaro.cors::lang.settings.allowed_origins_comment
+          commentHtml: true
+          type: repeater
+          minItems: 1
+          form:
+            fields:
+              origin:
+                label: norotaro.cors::lang.settings.origin
+        allowed_origins_patterns:
+          label: norotaro.cors::lang.settings.allowed_origins_patterns
+          commentAbove: norotaro.cors::lang.settings.allowed_origins_patterns_comment
+          commentHtml: true
+          type: repeater
+          form:
+            fields:
+              pattern:
+                label: norotaro.cors::lang.settings.pattern
+        allowed_methods:
+          label: norotaro.cors::lang.settings.allowed_methods
+          commentAbove: norotaro.cors::lang.settings.allowed_methods_comment
+          commentHtml: true
+          type: repeater
+          minItems: 1
+          form:
+            fields:
+              method:
+                label: norotaro.cors::lang.settings.method
+        allowed_headers:
+          label: norotaro.cors::lang.settings.allowed_headers
+          commentAbove: norotaro.cors::lang.settings.allowed_headers_comment
+          commentHtml: true
+          type: repeater
+          minItems: 1
+          form:
+            fields:
+              header:
+                label: norotaro.cors::lang.settings.header
+        exposed_headers:
+          label: norotaro.cors::lang.settings.exposed_headers
+          commentAbove: norotaro.cors::lang.settings.exposed_headers_comment
+          commentHtml: true
+          span: auto
+          type: switch
+          on: On
+          off: Off
+        max_age:
+          label: norotaro.cors::lang.settings.max_age
+          commentAbove: norotaro.cors::lang.settings.max_age_comment
+          commentHtml: true
+          span: auto
+          type: number
+        supports_credentials:
+          label: norotaro.cors::lang.settings.supports_credentials
+          commentAbove: norotaro.cors::lang.settings.supports_credentials_comment
+          commentHtml: true
+          span: auto
+          type: switch
+          on: On
+          off: Off
