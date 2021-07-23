@@ -1,6 +1,6 @@
 {
     "name": "norotaro/wn-cors-plugin",
-    "desciption": "WinterCMS plugin for send CORS headers.",
+    "desciption": "WinterCMS plugin to send CORS headers",
     "type": "winter-plugin",
     "keywords": [
         "winter",

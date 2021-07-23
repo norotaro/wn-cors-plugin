@@ -1,6 +1,10 @@
 plugin:
-    name: 'norotaro.cors::lang.plugin.name'
-    description: 'norotaro.cors::lang.plugin.description'
+    name: "norotaro.cors::lang.plugin.name"
+    description: "norotaro.cors::lang.plugin.description"
     author: Norotaro
     icon: wn-icon-cube
-    homepage: ''
+    homepage: ""
+permissions:
+    norotaro.cors.access_settings:
+        tab: "norotaro.cors::lang.plugin.name"
+        label: "norotaro.cors::lang.permissions.access_settings"
